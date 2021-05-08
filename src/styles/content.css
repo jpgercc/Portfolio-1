@@ -1,0 +1,77 @@
+/* Header */
+header {
+  background: var(--bg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 40px 80px;
+  z-index: 5;
+}
+header .logo {
+  position: relative;
+  font-weight: 700;
+  color: var(--line);
+  text-decoration: none;
+  font-size: 1.65rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+header .logo:hover {
+  filter: brightness(0.7);
+}
+header #mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+header #mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: whitesmoke;
+  margin: 8px;
+  transition: 0.3s;
+}
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  position: relative;
+  list-style: none;
+}
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: var(--line);
+  letter-spacing: 1.3px;
+  font-weight: 500;
+  transition: 0.6s;
+  transition: filter 0.5s;
+}
+header ul li a:hover {
+  filter: brightness(0.7);
+  border-bottom: 1px solid var(--line);
+}
+header.sticky {
+  padding: 15px 80px;
+  background: var(--line);
+}
+header.sticky a, header.sticky .logo {
+  color: var(--bg);
+}
+
+/* About section */
+#sobre {
+  height: 100vh;
+  margin-top: 110px;
+}
+
+/*# sourceMappingURL=content.css.map */
