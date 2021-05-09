@@ -16,7 +16,7 @@ header {
 
 	.logo {
 		position: relative;
-		font-weight: 700;
+		font-weight: 600;
 		color: var(--line);
 		text-decoration: none;
 		font-size: 1.65rem;
@@ -84,5 +84,63 @@ header {
 /* About section */
 #sobre {
 	height: 100vh;
-	margin-top: 110px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 80px;
+	padding-top: 110px;
+
+	.left-section {
+
+		h1 {
+			color: var(--line);
+			font-weight: 500;
+			letter-spacing: 2.5px;
+			font-size: 3rem;
+		}
+
+		h2 {
+			color: gray;
+			letter-spacing: 1px;
+		}
+
+		.contact {
+			margin-top: 1rem;
+			margin-bottom: 3rem;
+			padding-bottom: 3rem;
+			text-decoration: underline;
+			border-bottom: 1px solid var(--line);
+
+			p {
+				font-family: 'Lexend', sans-serif;
+				letter-spacing: 1px;
+				color: lightgrey;
+			}
+		}
+
+		.icons {
+			display: flex;
+			justify-content: flex-start;
+			gap: 3rem;
+
+			.social-icon {
+				color: white;
+				border: 1px solid white;
+				padding: 0.65rem 0.75rem;
+				border-radius: 100%;
+
+				transition: 0.5s;
+
+				&:hover {
+					color: var(--bg);
+					border: 1px solid var(--bg);
+					background-color: white;
+				}
+			}
+		}
+
+
+	}
+
+	
 }
