@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Header */
 header {
   background: var(--bg);
@@ -62,7 +63,7 @@ header ul li a:hover {
 }
 header.sticky {
   padding: 15px 80px;
-  background: var(--line);
+  background-color: whitesmoke;
 }
 header.sticky a, header.sticky .logo {
   color: var(--bg);
@@ -89,8 +90,8 @@ header.sticky a, header.sticky .logo {
 }
 #sobre .left-section .contact {
   margin-top: 1rem;
-  margin-bottom: 3rem;
-  padding-bottom: 3rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
   text-decoration: underline;
   border-bottom: 1px solid var(--line);
 }
@@ -102,6 +103,7 @@ header.sticky a, header.sticky .logo {
 #sobre .left-section .icons {
   display: flex;
   justify-content: flex-start;
+  margin-top: 1.5rem;
   gap: 3rem;
 }
 #sobre .left-section .icons .social-icon {
@@ -115,6 +117,35 @@ header.sticky a, header.sticky .logo {
   color: var(--bg);
   border: 1px solid var(--bg);
   background-color: white;
+}
+
+/* Projects section */
+#projetos {
+  height: 100vh;
+  padding: 0 80px;
+  padding-top: 110px;
+}
+#projetos h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+#projetos .cards {
+  display: flex;
+  margin-top: 3rem;
+  gap: 1.5rem;
+}
+#projetos .cards .card {
+  /* Estilos na imagem para deixar ela adaptável */
+}
+#projetos .cards .card h2 {
+  margin-top: 1rem;
+}
+#projetos .cards .card p {
+  margin-top: 0.5rem;
+}
+#projetos .cards .card img {
+  max-width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=content.css.map */

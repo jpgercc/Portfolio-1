@@ -73,7 +73,7 @@ header {
 
 	&.sticky {
 		padding: 15px 80px;
-		background: var(--line);
+		background-color: whitesmoke;
 
 		a, .logo {
 			color: var(--bg);
@@ -106,8 +106,8 @@ header {
 
 		.contact {
 			margin-top: 1rem;
-			margin-bottom: 3rem;
-			padding-bottom: 3rem;
+			margin-bottom: 1.5rem;
+			padding-bottom: 1.5rem;
 			text-decoration: underline;
 			border-bottom: 1px solid var(--line);
 
@@ -121,6 +121,7 @@ header {
 		.icons {
 			display: flex;
 			justify-content: flex-start;
+			margin-top: 1.5rem;
 			gap: 3rem;
 
 			.social-icon {
@@ -142,5 +143,42 @@ header {
 
 	}
 
+}
+
+/* Projects section */
+#projetos {
+	height: 100vh;
+	padding: 0 80px;
+	padding-top: 110px;
+
+	h1 {
+		text-align: center;
+		color: whitesmoke;
+	}
+
+	.cards {
+		display: flex;
+		margin-top: 3rem;
+		gap: 1.5rem;
+
+		.card {
+
+			h2 {
+				margin-top: 1rem;
+			}
+
+			p {
+				margin-top: 0.5rem;
+			}
+
+			/* Estilos na imagem para deixar ela adaptável */
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+
+		
+	}
 	
 }
