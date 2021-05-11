@@ -8,8 +8,9 @@
 
 :root {
   --bg: #0f1419;
+  --dark-bg: #0a0e14;
   --line: #fafafa;
-  --normal-blue: #39ba36;
+  --normal-blue: #39bae6;
 }
 
 html {
@@ -42,12 +43,12 @@ body, input, button, textarea {
 
 p {
   font-family: "Lexend", sans-serif;
-  color: whitesmoke;
+  color: lightgrey;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
-  color: whitesmoke;
+  color: lightgrey;
 }
 
 h1 {
