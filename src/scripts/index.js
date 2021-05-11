@@ -1,7 +1,7 @@
 /* ---- Sticky CSS effect */
 window.addEventListener('scroll', () => {
 	var header = document.querySelector('#header')
-	header.classList.toggle('sticky', window.scrollY > 0)
+	header.classList.toggle('sticky', window.scrollY > 50)
 })
 
 /* ---- Responsive menu */
