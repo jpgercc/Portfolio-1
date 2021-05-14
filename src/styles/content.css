@@ -180,5 +180,31 @@ main {
   padding-top: 110px;
   background-color: var(--dark-bg);
 }
+#formacao div h1 {
+  text-align: center;
+}
+#formacao .first-row {
+  margin-top: 12.5%;
+  display: flex;
+  justify-content: space-between;
+}
+#formacao .first-row div i {
+  color: whitesmoke;
+  font-size: 5rem;
+}
+#formacao .second-row {
+  margin-top: 12.5%;
+  display: flex;
+  justify-content: space-between;
+}
+#formacao .second-row div i {
+  color: whitesmoke;
+  font-size: 5rem;
+}
+#formacao .second-row .second-row-school {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 
 /*# sourceMappingURL=content.css.map */
