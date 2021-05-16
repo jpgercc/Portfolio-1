@@ -295,4 +295,36 @@ main {
 	h1 {
 		text-align: center
 	}
+
+	.skills {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 5rem;
+
+		div {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+
+			&.two-icons {
+
+				div {
+					display: flex;
+					flex-direction: row;
+					
+				}
+			}
+
+			i {
+				color: whitesmoke;
+				padding-bottom: 1rem;
+			}
+
+			p, i {
+				font-size: 1.65rem;
+				padding-right: 0.5rem;
+			}
+		}
+	}
 }
