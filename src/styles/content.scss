@@ -296,6 +296,11 @@ main {
 		text-align: center
 	}
 
+	h2 {
+		text-align: center;
+		padding-top: 110px;
+	}
+
 	.skills {
 		display: flex;
 		justify-content: space-between;
@@ -312,13 +317,29 @@ main {
 				div {
 					display: flex;
 					flex-direction: row;
-					
 				}
+
+				.two-icons-links {
+					color: whitesmoke;
+				}
+			}
+
+			a {
+				text-decoration: none;
 			}
 
 			i {
 				color: whitesmoke;
 				padding-bottom: 1rem;
+			}
+
+			p {
+				filter: brightness(0.8);
+				transition: filter 0.8;
+
+				&:hover {
+					filter: brightness(1);
+				}
 			}
 
 			p, i {
