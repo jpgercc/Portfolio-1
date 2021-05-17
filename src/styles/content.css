@@ -244,6 +244,10 @@ main {
 #habilidades h1 {
   text-align: center;
 }
+#habilidades h2 {
+  text-align: center;
+  padding-top: 110px;
+}
 #habilidades .skills {
   display: flex;
   justify-content: space-between;
@@ -259,9 +263,22 @@ main {
   display: flex;
   flex-direction: row;
 }
+#habilidades .skills div.two-icons .two-icons-links {
+  color: whitesmoke;
+}
+#habilidades .skills div a {
+  text-decoration: none;
+}
 #habilidades .skills div i {
   color: whitesmoke;
   padding-bottom: 1rem;
+}
+#habilidades .skills div p {
+  filter: brightness(0.8);
+  transition: filter 0.8;
+}
+#habilidades .skills div p:hover {
+  filter: brightness(1);
 }
 #habilidades .skills div p, #habilidades .skills div i {
   font-size: 1.65rem;
