@@ -218,6 +218,30 @@ main {
 			}
 		}
 	}
+
+	.more-projects {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 4rem;
+
+		a {
+			padding: 0.5rem 2rem;
+			border-radius: 2rem;
+			border: 1px solid var(--bg);
+			text-decoration: none;
+
+			background: var(--dark-bg);
+			color: var(--normal-blue);
+
+			transition: 0.8s;
+
+			&:hover {
+				background: var(--bg);
+				border: 1px solid var(--dark-bg);
+			}
+		}
+	}
 	
 }
 
