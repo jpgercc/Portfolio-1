@@ -311,9 +311,9 @@ main {
 
 /* Skills section */
 #habilidades {
-	height: 100vh;
 	padding: 0 80px;
 	padding-top: 110px;
+	padding-bottom: 110px;
 	background-color: var(--bg);
 
 	h1 {
@@ -329,24 +329,32 @@ main {
 		display: flex;
 		justify-content: space-between;
 		padding-top: 5rem;
+		flex-direction: column;
 
-		div {
+		.row-skills {
+
 			display: flex;
-			flex-direction: column;
 			justify-content: space-around;
 			align-items: center;
+			padding: 1rem 2rem;
+			
+			div {
+				background: var(--dark-bg);
 
-			&.two-icons {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				flex-direction: column;
 
-				div {
-					display: flex;
-					flex-direction: row;
-				}
-
-				.two-icons-links {
-					color: whitesmoke;
-				}
+				border: 1px solid grey;
+				height: 10rem;
+				width: 10rem;
+				padding: 5rem;
+				border-radius: 1.33rem;
 			}
+		}
+
+		div {
 
 			a {
 				text-decoration: none;
