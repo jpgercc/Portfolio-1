@@ -116,7 +116,7 @@ main {
   color: white;
   border: 1px solid white;
   padding: 0.65rem 0.75rem;
-  border-radius: 100%;
+  border-radius: 0.55rem;
   transition: 0.5s;
 }
 #sobre .left-section .icons .social-icon:hover {
@@ -143,8 +143,8 @@ main {
 }
 #projetos .cards .card {
   background-color: var(--dark-bg);
-  width: 100%;
-  height: 100%;
+  width: 420px;
+  height: 420px;
   padding: 0.75rem;
   border: 1px solid transparent;
   border-radius: 0.5rem;
@@ -400,6 +400,25 @@ main {
 }
 #experiencia .date time {
   color: whitesmoke;
+}
+
+/* Courses section */
+#certificados {
+  padding: 0 80px;
+  height: 100vh;
+  background: var(--bg);
+  padding-top: 110px;
+}
+#certificados h1 {
+  text-align: center;
+}
+#certificados .cards {
+  display: flex;
+  justify-content: space-between;
+}
+#certificados .cards .card .face {
+  width: 300px;
+  height: 200px;
 }
 
 /*# sourceMappingURL=content.css.map */
