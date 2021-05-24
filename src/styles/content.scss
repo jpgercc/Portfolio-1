@@ -610,3 +610,42 @@ main {
 		}
 	}
 }
+
+footer {
+	background: var(--dark-bg);
+	padding: 40px 0;
+	text-align: center;
+
+	h2 a {
+		text-decoration: none;
+		color: whitesmoke;
+		padding-bottom: 0.5rem;
+
+		transition: 0.7s;
+
+		&:hover {
+			border-bottom: 2px solid whitesmoke;
+		}
+	}
+
+	p {
+		padding-top: 1rem;
+		padding-bottom: 1.5rem;
+	}
+
+	.social-icon {
+		color: white;
+		border: 1px solid white;
+		padding: 0.65rem 0.75rem;
+		border-radius: 0.55rem;
+		margin: 0 1rem;
+
+		transition: 0.5s;
+
+		&:hover {
+			color: var(--bg);
+			border: 1px solid var(--bg);
+			background-color: white;
+		}
+	}
+}
