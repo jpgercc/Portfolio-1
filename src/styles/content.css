@@ -154,7 +154,7 @@ main {
 }
 #projetos .cards .card:hover {
   background-color: var(--bg);
-  box-shadow: 0px 2.5px 3px 1.5px #000000, 5px 5px 15px 5px rgba(250, 250, 250, 0);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
 }
 #projetos .cards .card h2 {
   margin-top: 1rem;
@@ -292,12 +292,12 @@ main {
   width: 10rem;
   padding: 5rem;
   border-radius: 1.33rem;
-  transition: 0.8s;
+  transition: 0.9s;
 }
 #habilidades .skills .row-skills div:hover {
   background: var(--bg);
   border: 1px solid var(--dark-bg);
-  box-shadow: 0px 2.5px 3px 1.5px #000000, 5px 5px 15px 5px rgba(250, 250, 250, 0);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
 }
 #habilidades .skills div a {
   text-decoration: none;
@@ -334,12 +334,12 @@ main {
   width: 10rem;
   padding: 5rem;
   border-radius: 1.33rem;
-  transition: 0.8s;
+  transition: 0.9s;
 }
 #habilidades .skills-studying div:hover {
   background: var(--bg);
   border: 1px solid var(--dark-bg);
-  box-shadow: 0px 2.5px 3px 1.5px #000000, 5px 5px 15px 5px rgba(250, 250, 250, 0);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
 }
 #habilidades .skills-studying div a {
   text-decoration: none;
@@ -407,20 +407,33 @@ main {
 /* Courses section */
 #certificados {
   padding: 0 80px;
-  height: 100vh;
   background: var(--bg);
   padding-top: 110px;
+  padding-bottom: 55px;
 }
 #certificados h1 {
   text-align: center;
 }
+#certificados h3 {
+  color: white;
+}
 #certificados p {
   color: var(--bg);
+}
+#certificados #second-div-cards {
+  margin-top: -50px;
 }
 #certificados .cards {
   display: flex;
   justify-content: space-between;
   position: relative;
+}
+#certificados .cards .card:hover .face.face-1 {
+  background-color: var(--normal-blue);
+  transform: translateY(0);
+}
+#certificados .cards .card:hover .face.face-2 {
+  transform: translateY(0);
 }
 #certificados .cards .card .face {
   width: 300px;
@@ -441,6 +454,10 @@ main {
 #certificados .cards .card .face.face-1 .content {
   opacity: 0.2;
   transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #certificados .cards .card .face.face-1 .content:hover {
   opacity: 1;
@@ -463,7 +480,8 @@ main {
   align-items: center;
   padding: 20px;
   box-sizing: border-box;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
 }
 #certificados .cards .card .face-2 a {
   margin: 15px 0 0;
@@ -476,7 +494,7 @@ main {
 }
 #certificados .cards .card .face-2 a:hover {
   background: var(--bg);
-  color: whitesmoke;
+  color: white;
 }
 
 /*# sourceMappingURL=content.css.map */
