@@ -180,6 +180,14 @@ main {
   border-bottom: 1px solid gray;
   padding-bottom: 0.75rem;
 }
+#projetos .cards .card-5 img {
+  width: 394px;
+  height: 190px !important;
+}
+#projetos .cards .card-6 img {
+  width: 394px;
+  height: 190px !important;
+}
 #projetos .more-projects {
   display: flex;
   justify-content: center;
