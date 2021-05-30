@@ -11,7 +11,7 @@ header {
 	align-items: center;
 
 	transition: 0.6s;
-	padding: 40px 80px;
+	padding: 2.66rem 5rem;
 	z-index: 5;
 
 	.logo {
@@ -34,10 +34,10 @@ header {
 		cursor: pointer;
 
 		div {
-			width: 32px;
+			width: 2rem;
 			height: 2px;
 			background: whitesmoke;
-			margin: 8px;
+			margin: 0.5rem;
 			transition: 0.3s;
 		}
 	}
@@ -54,7 +54,7 @@ header {
 
 			a {
 				position: relative;
-				margin: 0 15px;
+				margin: 0 1rem;
 				text-decoration: none;
 				color: var(--line);
 				letter-spacing: 1.3px;
@@ -72,7 +72,7 @@ header {
 	}
 
 	&.sticky {
-		padding: 15px 80px;
+		padding: 1rem 5rem;
 		background-color: whitesmoke;
 
 		a, .logo {
@@ -92,9 +92,9 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0 80px;
-	padding-top: 210px;
-	padding-bottom: 110px;
+	padding: 0 5rem;
+	padding-top: 13.125rem;
+	padding-bottom: 6.875rem;
 
 	.left-section {
 
@@ -153,9 +153,9 @@ main {
 
 /* Projects section */
 #projetos {
-	padding: 0 80px;
-	padding-top: 110px;
-	padding-bottom: 110px !important;
+	padding: 0 5rem;
+	padding-top: 6.875rem;
+	padding-bottom: 6.875rem !important;
 	background-color: var(--bg);
 
 
@@ -171,8 +171,8 @@ main {
 
 		.card {
 			background-color: var(--dark-bg);
-			width: 420px;
-			height: 420px;
+			width: 26.25rem;
+			height: 26.25rem;
 			padding: 0.75rem;
 			border: 1px solid transparent;
 			border-radius: 0.5rem;
@@ -183,7 +183,7 @@ main {
 
 			&:hover {
 				background-color: var(--bg);
-				box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+				box-shadow: 0 0.625rem 1.5625rem rgba(0, 0, 0, 0.8);
 			}
 			
 			h2 {
@@ -219,15 +219,15 @@ main {
 
 		.card-5 {
 			img {
-				width: 394px;
-				height: 190px !important;
+				width: 24.625rem;
+				height: 11.875rem !important;
 			}
 		}
 
 		.card-6 {
 			img {
-				width: 394px;
-				height: 190px !important;
+				width: 24.625rem;
+				height: 11.875rem !important;
 			}
 		}
 	}
@@ -261,9 +261,9 @@ main {
 
 /* Formation section */
 #formacao {
-	padding: 0 80px;
-	padding-top: 110px;
-	padding-bottom: 110px;
+	padding: 0 5rem;
+	padding-top: 6.875rem;
+	padding-bottom: 6.875rem;
 	background-color: var(--dark-bg);
 
 	div h1 {
@@ -325,9 +325,9 @@ main {
 
 /* Skills section */
 #habilidades {
-	padding: 0 80px;
-	padding-top: 110px;
-	padding-bottom: 110px;
+	padding: 0 5rem;
+	padding-top: 6.875rem;
+	padding-bottom: 6.875rem;
 	background-color: var(--bg);
 
 	h1 {
@@ -336,7 +336,7 @@ main {
 
 	h2 {
 		text-align: center;
-		padding-top: 55px;
+		padding-top: 3.4375rem;
 	}
 
 	.skills {
@@ -369,7 +369,7 @@ main {
 				&:hover {
 					background: var(--bg);
 					border: 1px solid var(--dark-bg);
-					box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+					box-shadow: 0 0.625rem 1.5625rem rgba(0, 0, 0, 0.8);
 				}
 			}
 		}
@@ -425,7 +425,7 @@ main {
 			&:hover {
 					background: var(--bg);
 					border: 1px solid var(--dark-bg);
-					box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+					box-shadow: 0 0.625rem 1.5625rem rgba(0, 0, 0, 0.8);
 				}
 
 			a {
@@ -456,9 +456,9 @@ main {
 
 /* Experience section */
 #experiencia {
-	padding: 0 80px;
-	padding-top: 110px;
-	padding-bottom: 155px;
+	padding: 0 5rem;
+	padding-top: 6.875rem;
+	padding-bottom: 13.4375rem;
 
 	h1 {
 		text-align: center;
@@ -509,10 +509,10 @@ main {
 
 /* Courses section */
 #certificados {
-	padding: 0 80px;
+	padding: 0 5rem;
 	background: var(--bg);
-	padding-top: 110px;
-	padding-bottom: 55px;
+	padding-top: 6.875rem;
+	padding-bottom: 3.4375rem;
 
 	h1 {
 		text-align: center;
@@ -527,7 +527,7 @@ main {
 	}
 
 	#second-div-cards {
-		margin-top: -50px;
+		margin-top: -3.125rem;
 	}
 
 	.cards {
@@ -547,8 +547,8 @@ main {
 		.card {
 
 			.face {
-				width: 300px;
-				height: 200px;
+				width: 18.75rem;
+				height: 12.5rem;
 				transition: 0.5s;
 			}
 
@@ -564,7 +564,7 @@ main {
 			.face.face-1 {
 
 				background: var(--bg);
-				transform: translateY(100px);
+				transform: translateY(6.25rem);
 
 				.content {
 					opacity: 0.2;
@@ -579,12 +579,12 @@ main {
 					}
 
 					img {
-						max-width: 100px;
-						max-height: 100px;
+						max-width: 6.25rem;
+						max-height: 6.25rem;
 					}
 
 					h3 {
-						margin: 10px 0 0;
+						margin: 0.625rem 0 0;
 						padding: 0;
 						text-align: center;
 						font-size: 1.5rem;
@@ -598,14 +598,14 @@ main {
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				padding: 20px;
+				padding: 1.25rem;
 				box-sizing: border-box;
-				box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+				box-shadow: 0 0.625rem 1.5625rem rgba(0, 0, 0, 0.8);
 
-				transform: translateY(-100px);
+				transform: translateY(-6.25rem);
 
 				a {
-					margin: 15px 0 0;
+					margin: 1rem 0 0;
 					display: inline-block;
 
 					padding: 0.4rem;
@@ -627,7 +627,7 @@ main {
 
 footer {
 	background: var(--dark-bg);
-	padding: 40px 0;
+	padding: 2.66rem 0;
 	text-align: center;
 
 	h2 a {

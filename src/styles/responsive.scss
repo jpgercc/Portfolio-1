@@ -1,5 +1,5 @@
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
 
 	/* About section */
 	#sobre {
@@ -19,6 +19,8 @@
 
 	/* Projects section */
 	#projetos {
+
+		padding: 6.875rem 0;
 
 		.cards {
 			flex-direction: column;
@@ -70,6 +72,7 @@
 
 			.row-skills {
 				flex-direction: column;
+				padding: 0;
 
 				div {
 					margin: 1rem;
@@ -80,6 +83,7 @@
 
 		.skills-studying {
 			flex-direction: column;
+			gap: 1rem;
 		}
 	}
 
@@ -117,11 +121,6 @@
 			align-items: center;
 		}
 	}
-
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) {
 
 }
 
