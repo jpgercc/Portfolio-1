@@ -124,6 +124,9 @@ main {
   border: 1px solid var(--bg);
   background-color: white;
 }
+#sobre .left-section .icons .social-icon p {
+  text-decoration: none;
+}
 
 /* Projects section */
 #projetos {
